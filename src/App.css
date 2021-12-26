@@ -8,7 +8,7 @@
 
 .app{
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images//city.jpg');
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images//nature.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -18,16 +18,15 @@
 }
 
 .card{
-    background-color: whitesmoke;
-    width: 40%;
-    height: 25%;
+    width: 50%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 25px;
     padding: 2%;
-    box-shadow: 10px 10px;
+    color:white;
 }
 .heading{
     display: flex;
@@ -36,7 +35,8 @@
     font-family: 'Spartan', sans-serif;
 }
 .button {
-    position: relative;
+  position: relative;
+    padding: 5px 10px;
     outline: none;
     text-decoration: none;
     border-radius: 50px;
@@ -45,11 +45,12 @@
     align-items: center;
     cursor: pointer;
     text-transform: uppercase;
-    height: 200px;
+    min-height: 50px;
     width: 210px;
     opacity: 1;
     background-color: #ffffff;
     border: 1px solid rgba(22, 76, 167, 0.6);
+    font-weight: 500;
   }
     
   .button span {
@@ -107,6 +108,6 @@
   @media only screen and (max-width: 600px) {
     .card {
         width: 80%;
-        height: 30%;
+        height: 40%;
     }
   }
